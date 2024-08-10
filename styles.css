@@ -1,110 +1,107 @@
+
 body{
-    background-color: #d1e4d1;
-    margin:0;
-    padding: 15px;
-  }
-  #title{
-    text-align: center;
-    font-family: TimesNewRoman, Segoe UI,Arial, sans-serif;
-    font-size: 2.5rem;
-    line-height: 1.6;
-    margin: 0;
-    color: #163a5f;
-  }
-  
-  .sub-head{
-    text-align:center;
-    font-family: Arial, sans-serif;
-    word-spacing: 4px;
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  main{
-    text-align: center;
-    background-color:#e4eddb;
-    margin: 5px;
-    padding: 6px;
-    border: 1px solid none;
-    border-radius: 8px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-  }
-  img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 5px;
-  }
-  #img-caption{
-    text-align: center;
-    margin: 5px;
-    letter-spacing: 1;
-    word-spacing: 1;
-  }
-  .phead{
-    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
-    border-bottom: 1px solid #515661;
-    margin-bottom: 2px;
-    padding: 1px;
-    text-align: center;
-  }
-  @media (max-width: 460px) {
-    h1 {
+  background-color: #d1e4d1;
+  margin:0;
+  padding: 15px;
+}
+#title{
+  text-align: center;
+  font-family: 'Times New Roman', 'Segoe UI', Arial, sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #163a5f;
+}
+
+.sub-head{
+  text-align:center;
+  font-family: Arial, sans-serif;
+  word-spacing: 4px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+main{
+  text-align: center;
+  background-color:#e4eddb;
+  margin: 5px;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+#img-caption{
+  text-align: center;
+  margin: 5px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.phead{
+  font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+  border-bottom: 1px solid #515661;
+  margin-bottom: 2px;
+  padding: 1px;
+  text-align: center;
+}
+@media (max-width: 460px) {
+  h1 {
       font-size: 3.5rem;
       line-height: 1.2;
-    }
   }
-  @media (max-width: 460px) {
-    #main {
+}
+@media (max-width: 460px) {
+  main {
       margin: 0;
-    }
   }
-  
-  #tribute-info{
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-  }
-  #tribute-info>p{
-    line-height: 1.5; 
-    text-align: justify;
-  }
-  ul {
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
-  }
-  
-  li {
-    margin: 16px 0;
-  }
-  #tribute-link{
-    text-decoration: none;
-    color: darkblue;
-    margin-left: 5px;
-  }
-  #tribute-link:hover{
-    color: red;
-    text-decoration: underline;
-  }
-  
-  .footer{
-    background-color: #CCCCFF;
-    margin: 0;
-    display: block;
-    width: 100%;
-    text-align: center;
-    border: 1px solid none;
-    border-radius: 5px ;
-  }
-  .footer> p{
-    padding: 20px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    color: blue;
-  }
-  
-  
+}
+
+#tribute-info{
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+#tribute-info>p{
+  line-height: 1.5; 
+  text-align: justify;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+#tribute-link{
+  text-decoration: none;
+  color: darkblue;
+  margin-left: 5px;
+}
+#tribute-link:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.footer{
+  background-color: #CCCCFF;
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px ;
+}
+.footer> p{
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: darkblue;
+}
