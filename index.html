@@ -1,46 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Tribute Page</title>
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8"/>
-    <meta name="description" content="Tribute page"/>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-  </head>
+    <title>Smooth Pen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <main id="main">
-    <h1 id="title">Virat Kohli</h1>
-    <p class="sub-head">The <b>Goat</b> Of Modern Cricket</p>
-    <figure id="img-div">
-      <img id="image" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_70/lsci/db/PICTURES/CMS/371200/371247.3.jpg" alt="Virat Kohli in a cricket match"/>
-      <figcaption id="img-caption">Photo by ODI world cup - Virat in this pic</figcaption>
-    </figure>
-    <section id="tribute-info">
-      <h1 class="phead">A Cricket Legend</h1>
-      <p>Virat Kohli, born on November 5, 1988, in Delhi, India, is a name that resonates with cricketing excellence. From a young age, Virat showed an extraordinary talent for the game, and it was evident that he was destined for greatness. His journey from the streets of Delhi to becoming one of the most iconic figures in world cricket is nothing short of inspirational.</p>
+  <!-- Header -->
+  <header id="header">
+    <img src="https://www.parkerpen.com/on/demandware.static/Sites-parkerpen-Site/-/default/dwcde8f5bb/images/brand-logo.svg" alt="Parker logo" id="header-img"/>
+    <nav id="nav-bar">
+        <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
 
-      <h2 class="phead">Personal Life</h2>
-      <p>Virat grew up in a close-knit family, where his father, Prem Kohli, supported his ambitions unconditionally. Sadly, his father passed away during Virat's early cricketing days, but this tragedy only fueled his determination. Virat is married to Bollywood actress Anushka Sharma, and together, they are one of the most admired celebrity couples in India. They welcomed their daughter, Vamika, in January 2021, adding a new chapter to their personal lives.</p>
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Get Started</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Your Email" required>
+        <input id="submit" type="submit" value="Start Now"/>
+    </form>
+  </section>
 
-      <h2 class="phead">Career Journey</h2>
-      <p>Virat Kohli's cricketing journey began at the age of 18 when he captained the Indian team to victory in the 2008 ICC Under-19 Cricket World Cup. His impressive performance in the tournament earned him a spot in the senior national team, where he made his debut against Sri Lanka in August 2008. Over the years, Virat has evolved into one of the most complete batsmen in the history of the game, known for his aggressive playing style, exceptional consistency, and unrelenting passion.</p>
-
-      <h2 class="phead">Achievements</h2>
-      <p>Virat Kohli's list of achievements is extensive and illustrious. He has broken numerous records, both as a batsman and as a captain. Some of his most notable achievements include:</p>
-      <ul>
-        <li><strong>Prolific Run Scorer:</strong> Virat is one of the highest run-scorers in the history of One Day Internationals (ODIs) and T20 Internationals. He was the fastest player to reach 8,000, 9,000, 10,000, 11,000, and 12,000 runs in ODIs, showcasing his remarkable consistency.</li>
-        <li><strong>Captaincy Success:</strong> As captain of the Indian cricket team, Virat led India to numerous victories across formats. Under his leadership, India achieved the number one ranking in Test cricket and secured memorable series wins, including the historic Test series victory in Australia in 2021.</li>
-        <li><strong>Awards and Accolades:</strong> Virat has been honored with several prestigious awards, including the ICC Cricketer of the Year (Sir Garfield Sobers Trophy) multiple times, the Rajiv Gandhi Khel Ratna Award, and the Padma Shri, one of India's highest civilian honors.</li>
-        <li><strong>Inspiration Beyond Cricket:</strong> Beyond his on-field achievements, Virat is known for his fitness regime, discipline, and philanthropic efforts. He has set a new standard for fitness in Indian cricket, inspiring young athletes across the country.</li>
-      </ul>
-
-      <p>Virat Kohli's journey is far from over, and as he continues to play and inspire millions, his legacy in the world of cricket is firmly established. He is not just a cricketer; he is a symbol of perseverance, passion, and excellence.</p>
-    
-      <div class="footer">
-        <p class="foot">For more information you can visit <a id="tribute-link" href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank" value="virat Kohli">Virat Kohli</a></p>
+  <!-- Features -->
+  <section id="features">
+    <h2 class="section-head">Features</h2>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YLb-UK-jf70?si=Ibkr1fK8xl_kyEF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="features-div">
+      <div class="features-1">
+        <h3>Elegant Design</h3>
+        <p>The Parker Pen is crafted with an elegant design that speaks of sophistication and luxury. Its smooth, sleek finish and timeless appeal make it a perfect companion for professionals.</p>
       </div>
-    </section>
-  </main>
+      <div class="features-2">
+        <h3>Durability & Reliability</h3>
+        <p>Built to last, the Parker Pen is designed with durable materials that withstand the test of time. Its reliability makes it an essential tool for everyday use.</p>
+      </div>
+      <div class="features-3">
+        <h3>Precise Writing Experience</h3>
+        <p>The Parker Pen offers a smooth and precise writing experience, making it ideal for both casual and professional use.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <h3>Pricing</h3>
+    <div id="pricing-container">
+      <div class="product" id="Basic-red">
+        <div class="level">Basic Plan</div>
+        <h2>₨ 99.9</h2>
+        <img class="product-img" src="https://newellbrands.imgix.net/290dbcd7-3f02-3038-8cf2-6abdb68c70c9/290dbcd7-3f02-3038-8cf2-6abdb68c70c9.jpg?auto=format,compress&w=1548" alt="Basic Pen"/>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="black-pro">
+        <div class="level">Pro Black</div>
+        <h2>₨ 289.9</h2>
+        <img class="product-img" src="https://newellbrands.imgix.net/34220b9c-3f94-3f03-a320-cb18b540ce6d/34220b9c-3f94-3f03-a320-cb18b540ce6d.jpg?auto=format,compress&w=1548" alt="Pro Black Pen"/>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="Sonnet">
+        <div class="level">Sonnet</div>
+        <h2>₨ 699.9</h2>
+        <img class="product-img" src="https://newellbrands.imgix.net/d4018fd8-debc-3ca6-9143-541b712ebec4/d4018fd8-debc-3ca6-9143-541b712ebec4.jpg?auto=format,compress&w=1548" alt="Sonnet Pen"/>
+        <button class="btn">Select</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/freecodecamp/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/freecodecamp/"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/freecodecamp"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/school/free-code-camp/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.youtube.com/freecodecamp"><i class="fab fa-youtube"></i></a>
+      </div>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2016, Original Trombones</span>
+    </footer>
+  </section>
 </body>
 </html>
