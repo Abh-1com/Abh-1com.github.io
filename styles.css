@@ -49,10 +49,10 @@ body{
   padding: 2px;
   
  }
-/*li::before{
+li::before{
  content:"\2714";
  color: red;
-}*/
+}
  #navbar li:hover{
   background-color: #444;
   border-left: 5px solid red;
